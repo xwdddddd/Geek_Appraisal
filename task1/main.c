@@ -2,7 +2,17 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	printf("Hello World!\n");
+	double y=0;
+	printf("enter your number:%d",y);
+	scanf("%lf",&y);
+	printf("\tx\t\ty\n",y);
+	double x=0;
+	for(printf("\t%lf\t%lf\n",x,y);y-y*0.999>=0.001;x+0)
+	{
+		x=x+0.001;
+		y=y*0.999;
+		printf("\t%lf\t%lf\n",x,y);
+	}
 	return 0;
 }
 
